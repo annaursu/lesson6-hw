@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="SkillUP Homework 6">
+    <meta name="keywords" content="HTML form, HTML meta tag, CSS">
+    <meta name="author" content="Anna Ursu"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"
+</head>
+<body>
+
+    <form class="submission-class" action="http://www.mocky.io/v2/5e4928e730000047018c2cf1" method="POST">
+        <div>
+            <label for="name">Your Name (required)</label>
+            <input name="name" id="name" required>
+        </div>
+        <div class="form-row">
+            <label for="email">Your Email (required)</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div>
+            What's this all about?
+            <div class="form-row">
+                <label class="container" for="Say Hello">Say Hello</label>
+                <input type="checkbox" name="Say Hello" id="Say Hello">
+                <span class="checkmark"></span>
+            </div>
+            <div>
+                <label class="container" for="Complain">Complain</label>
+                <input type="checkbox" name="Complain" id="Complain">
+                <span class="checkmark"></span>
+            </div>
+            <div>
+                <label class="container" for="Share a joke">Share a joke</label>
+                <input type="checkbox" name="Share a joke" id="Share a joke">
+                <span class="checkmark"></span>
+            </div>
+        </div>
+        <div>
+            <label for="subject">Subject</label>
+            <select name="subject" id="subject" placeholder="Please select">
+                <option value="1">Please select</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </div>
+        <div>
+            <label for="Message">Your Message</label>
+            <textarea class="form-row" name="Message" id="Message"></textarea>
+        </div>
+        <button class="form-row" type="submit"> Send</button>
+    </form>
+  
+</body>
+</html>
